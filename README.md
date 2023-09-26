@@ -22,7 +22,7 @@
 
  * [Contact](#contact)
 
- * [Citing ITSC database](#citing_ITSC)
+ * [Citing ITSC database](#citing itsc database)
 
  * [License](#license)
 
@@ -90,7 +90,7 @@ In addition to the dataset, scripts to load and read the data are provided for P
 
 ## Contact
 
-To discuss the dataset, please use email [Dr. D.-L. Almanza-Ojeda](mailto:dora.almanza?subject=[GitHub]%20Source%20Han%20Sans) or ![Gitter](https://img.shields.io/gitter/room/ibarram/ITSC).
+To discuss the dataset, please use email [Dra. D.-L. Almanza-Ojeda](mailto:dora.almanza@ugto.mx?subject=[GitHub]%20ITSC%20dataset), [Dr. M.-A. Ibarra-Manzano](mailto:ibarram@ugto.mx?subject=[GitHub]%20ITSC%20dataset) or ![Gitter](https://img.shields.io/gitter/room/ibarram/ITSC).
 
 ## Citing ITSC database
 
