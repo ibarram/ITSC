@@ -88,6 +88,10 @@ In addition to the dataset, scripts to load and read the data are provided for P
 
 ## Publications
 
+Publications from the scientific community that use the ITSC dataset:
+
+1. J.-J. Cardenas-Cornejo, M.-A. Ibarra-Manzano, A. Gonzalez-Parada, R. Castro-Sanchez, D.-. Almanza-Ojeda, "Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis", Measurement, Vol. X, 20xx, pages x-xx, ISSN: 0263-2241, DOI: 10.1016/j.measurement.X.X.X
+
 ## Contact
 
 [Dra. D.-L. Almanza-Ojeda](mailto:dora.almanza@ugto.mx?subject=[GitHub]%20ITSC%20dataset) - [ORCID: 0000-0002-3373-0929](https://orcid.org/0000-0002-3373-0929) - [SCOPUS: 13608761000](https://www.scopus.com/authid/detail.uri?authorId=13608761000) 
