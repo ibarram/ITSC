@@ -92,14 +92,16 @@ If you use ITSC database in a scientific publication, we would appreciate refere
 
 Biblatex entry:
 ```latex
-@online{xiao2017/online,
-  author       = {Han Xiao and Kashif Rasul and Roland Vollgraf},
-  title        = {Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms},
-  date         = {2017-08-28},
-  year         = {2017},
-  eprintclass  = {cs.LG},
-  eprinttype   = {arXiv},
-  eprint       = {cs.LG/1708.07747},
+@article{xiao2017/online,
+  title        = {Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis},
+  journal      = {Measurement},
+  volume       = {X},
+  pages        = {X-X},
+  year         = {X},
+  issn         = {0263-2241},
+  doi          = {https://doi.org/10.1016/j.measurement.X.X.X},
+  url          = {https://www.sciencedirect.com/science/article/X/X},
+  author       = {Juan-Jose Cardenas-Cornejo and Mario-Alberto Ibarra-Manzano and Adrian Gonzalez-Parada and Rogelio Castro-Sanchez and Dora-Luz Almanza-Ojeda}
 }
 ```
 
