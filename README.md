@@ -1,8 +1,9 @@
 # Experimental dataset for classifying four levels of inter-turn short-circuit per phase in an induction motor.
 
-![version](https://img.shields.io/badge/version-1.0.0-blue)
-[![Gitter](https://badges.gitter.im/repo.svg)](https://matrix.to/#/!cCPTfwhfRiyFKSaMjp:gitter.im?via=gitter.im)
+[![version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/ibarram/ITSC/)
+![Gitter](https://img.shields.io/gitter/room/ibarram/ITSC)
 [![Readme-ES](https://img.shields.io/badge/README-Español-green.svg)](README_ES.md)
+[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/ibarram/ITSC)](https://github.com/ibarram/ITSC/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <details><summary>Table of Contents</summary><p>
