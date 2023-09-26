@@ -5,6 +5,14 @@
  * [Abstract](#abstract)
 
  * [Testbench](#testbench)
+
+ * [Get the data](#get_the_data)
+
+ * [Database](#database)
+
+ * [Benchmark](#benchmark)
+
+ * [Publications](#publications)
  
  * [License](#license)
 
@@ -32,14 +40,15 @@ Finally, a third folder provides the current signals filtered and pre-processed 
 
 ## Get the data
 
-You can use direct links to download the dataset. The data is stored in the **mat** and **csv** formats.
+You can use direct links to download the dataset. The data is stored in the **csv** and **mat** formats.
 
-| Name  | Content | Examples | Size | Link | MD5 Checksum|
+| Name  | Description | Samples | Size | Link | MD5 Checksum|
 | --- | --- |--- | --- |--- |--- |
-| `train-images-idx3-ubyte.gz`  | training set images  | 60,000|26 MBytes | [Download](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)|`8d4fb7e6c68d591d4c3dfef9ec88bf0d`|
-| `train-labels-idx1-ubyte.gz`  | training set labels  |60,000|29 KBytes | [Download](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-labels-idx1-ubyte.gz)|`25c81989df183df01b3e8a0aad5dffbe`|
-| `t10k-images-idx3-ubyte.gz`  | test set images  | 10,000|4.3 MBytes | [Download](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-images-idx3-ubyte.gz)|`bef4ecab320f06d8554ea6380940ec79`|
-| `t10k-labels-idx1-ubyte.gz`  | test set labels  | 10,000| 5.1 KBytes | [Download](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-labels-idx1-ubyte.gz)|`bb300cfdad3c16e7a12a480ee83cd310`|
+| `RAW_Signals.zip`  | Raw data in CSV format  | [325,000x3] |4.7 MBytes | [Download](/dataset/RAW_Signals.zip)|`8d4fb7e6c68d591d4c3dfef9ec88bf0d`|
+| `RAW_Signals_SF.zip`  | Raw data in CVS format arranged in folders | [325,000x3] |4.7 MBytes | [Download](/dataset/RAW_Signals_SF.zip)|`25c81989df183df01b3e8a0aad5dffbe`|
+| `Cropped_Signals_SF.zip`  | Cropped and preprocessed data in CSV fotmat  | [65,000x3] |1.7 MBytes | [Download](/dataset/Cropped_Signals_SF.zip)|`bef4ecab320f06d8554ea6380940ec79`|
+| `RAWData_ITSC.mat`  | Raw data in mat format  | [325,000x3]| 7.2 MBytes | [Download](/dataset/RAWData_ITSC.mat)|`bb300cfdad3c16e7a12a480ee83cd310`|
+| `Data_ITSC.mat`  | Cropped and proprocessed data in mat format  | [65,000x3]| 1.5 MBytes | [Download](/dataset/Data_ITSC.mat)|`bb300cfdad3c16e7a12a480ee83cd310`|
 
 Alternatively, you can clone this GitHub repository; the dataset appears under `dataset/`. This repository also contains some scripts for load and visualization.
    
@@ -63,8 +72,13 @@ The second and third folders, “RAW_Signals_SF” and “Cropped_Signals_SF” 
 
 In addition to the dataset, scripts to load and read the data are provided for Python, R, C, and MATLAB.
 
+## Benchmark
+
+
 
 ## Publications
+
+
 
 ## License
 
