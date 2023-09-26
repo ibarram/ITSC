@@ -2,7 +2,7 @@
 
 [![version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/ibarram/ITSC/)
 ![Gitter](https://img.shields.io/gitter/room/ibarram/ITSC)
-[![Readme-ES](https://img.shields.io/badge/README-Español-green.svg)](README_ES.md)
+[![Readme-ES](https://img.shields.io/badge/README-English-green.svg)](README.md)
 [![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/ibarram/ITSC)](https://github.com/ibarram/ITSC/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 

@@ -90,7 +90,7 @@ In addition to the dataset, scripts to load and read the data are provided for P
 
 ## Contact
 
-To discuss the dataset, please use [![Gitter](https://badges.gitter.im/repo.svg)](https://matrix.to/#/!cCPTfwhfRiyFKSaMjp:gitter.im?via=gitter.im).
+To discuss the dataset, please use ![Gitter](https://img.shields.io/gitter/room/ibarram/ITSC). or [e-mail](mailto:ibarram@ugto.mx)
 
 ## Citing ITSC database
 
