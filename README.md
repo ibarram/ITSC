@@ -90,7 +90,7 @@ In addition to the dataset, scripts to load and read the data are provided for P
 
 ## Contact
 
-To discuss the dataset, please use ![Gitter](https://img.shields.io/gitter/room/ibarram/ITSC). or [e-mail](mailto:ibarram@ugto.mx)
+To discuss the dataset, please use email [Dr. D.-L. Almanza-Ojeda](mailto:dora.almanza?subject=[GitHub]%20Source%20Han%20Sans) or ![Gitter](https://img.shields.io/gitter/room/ibarram/ITSC).
 
 ## Citing ITSC database
 
