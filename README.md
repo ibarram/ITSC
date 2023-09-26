@@ -94,6 +94,12 @@ In addition to the dataset, scripts to load and read the data are provided for P
 
 [Dr. M.-A. Ibarra-Manzano](mailto:ibarram@ugto.mx?subject=[GitHub]%20ITSC%20dataset) - [ORCID: 0000-0003-4317-0248](https://orcid.org/0000-0003-4317-0248) - [SCOPUS: 15837259000](https://www.scopus.com/authid/detail.uri?authorId=15837259000)
 
+[M.I. J.-J. Cardenas-Cornejo](mailto:jj.cardenascornejo@ugto.mx?subject=[GitHub]%20ITSC%20dataset) - [ORCID: 0000-0001-6847-4059](https://orcid.org/0000-0001-6847-4059) - [SCOPUS: 57218545341](https://www.scopus.com/authid/detail.uri?authorId=57218545341)
+
+[Dr. A. Gonzalez-Parada](mailto:gonzaleza@ugto.mx?subject=[GitHub]%20ITSC%20dataset) - [ORCID: 0000-0003-3473-1349](https://orcid.org/0000-0003-3473-1349) - [SCOPUS: 36011661100](https://www.scopus.com/authid/detail.uri?authorId=36011661100)
+
+[Dr. R. Castro-Sanchez](mailto:castro@ugto.mx?subject=[GitHub]%20ITSC%20dataset) - [ORCID: 0000-0002-4072-4105](https://orcid.org/0000-0002-4072-4105) - [SCOPUS: 6508110285](https://www.scopus.com/authid/detail.uri?authorId=6508110285)
+
 Project Link: [ITSC](https://github.com/ibarram/ITSC)
 
 ## Citing ITSC database
