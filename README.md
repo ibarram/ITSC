@@ -12,7 +12,7 @@
 
  * [Testbench](#testbench)
 
- * [Get the data](#get_the_data)
+ * [Get the data](#get-the-data)
 
  * [Database](#database)
 
@@ -20,9 +20,9 @@
 
  * [Publications](#publications)
 
- * [Contact](#contact)
+ * [Feedback](#feedback)
 
- * [Citing ITSC database](#citing itsc database)
+ * [Citing ITSC database](#citing-itsc-database)
 
  * [License](#license)
 
@@ -88,11 +88,11 @@ In addition to the dataset, scripts to load and read the data are provided for P
 
 ## Publications
 
-## Contact
+## Feedback
 
 To discuss the dataset, please use email [Dra. D.-L. Almanza-Ojeda](mailto:dora.almanza@ugto.mx?subject=[GitHub]%20ITSC%20dataset), [Dr. M.-A. Ibarra-Manzano](mailto:ibarram@ugto.mx?subject=[GitHub]%20ITSC%20dataset) or ![Gitter](https://img.shields.io/gitter/room/ibarram/ITSC).
 
-## Citing ITSC database
+## Citing
 
 If you use ITSC database in a scientific publication, we would appreciate references to the following paper:
 
