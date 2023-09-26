@@ -20,7 +20,7 @@
 
  * [Publications](#publications)
 
- * [Feedback](#feedback)
+ * [Contact](#Contact)
 
  * [Citing ITSC database](#citing-itsc-database)
 
@@ -88,7 +88,7 @@ In addition to the dataset, scripts to load and read the data are provided for P
 
 ## Publications
 
-## Feedback
+## Contact
 
 To discuss the dataset, please use email [Dra. D.-L. Almanza-Ojeda](mailto:dora.almanza@ugto.mx?subject=[GitHub]%20ITSC%20dataset), [Dr. M.-A. Ibarra-Manzano](mailto:ibarram@ugto.mx?subject=[GitHub]%20ITSC%20dataset) or ![Gitter](https://img.shields.io/gitter/room/ibarram/ITSC).
 
