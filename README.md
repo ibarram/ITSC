@@ -88,7 +88,7 @@ In addition to the dataset, scripts to load and read the data are provided for P
 
 If you use ITSC database in a scientific publication, we would appreciate references to the following paper:
 
-**Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms. Han Xiao, Kashif Rasul, Roland Vollgraf. [arXiv:1708.07747](http://arxiv.org/abs/1708.07747)**
+**Juan-Jose Cardenas-Cornejo, Mario-Alberto Ibarra-Manzano, Adrian Gonzalez-Parada, Rogelio Castro-Sanchez, Dora-Luz Almanza-Ojeda. Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis. [DOI:X](https://doi.org/10.1016/j.measurement.X.X.X)**
 
 Biblatex entry:
 ```latex
