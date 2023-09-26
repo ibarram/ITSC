@@ -1,5 +1,9 @@
 # Experimental dataset for classifying four levels of inter-turn short-circuit per phase in an induction motor.
 
+[![GitHub stars](https://img.shields.io/github/stars/ibarram/ITSC.svg?style=flat&label=Star)](https://github.com/ibarram/ITSC/)
+[![Readme-CN](https://img.shields.io/badge/README-中文-green.svg)](README.zh-CN.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 <details><summary>Table of Contents</summary><p>
  
  * [Abstract](#abstract)
@@ -13,7 +17,9 @@
  * [Benchmark](#benchmark)
 
  * [Publications](#publications)
- 
+
+ * [Citing ITSC database](#citing_ITSC)
+
  * [License](#license)
 
 </p></details><p></p>
@@ -44,11 +50,11 @@ You can use direct links to download the dataset. The data is stored in the **cs
 
 | Name  | Description | Samples | Size | Link | MD5 Checksum|
 | --- | --- |--- | --- |--- |--- |
-| `RAW_Signals.zip`  | Raw data in CSV format  | [325,000x3] |4.7 MBytes | [Download](/dataset/RAW_Signals.zip)|`8d4fb7e6c68d591d4c3dfef9ec88bf0d`|
-| `RAW_Signals_SF.zip`  | Raw data in CVS format arranged in folders | [325,000x3] |4.7 MBytes | [Download](/dataset/RAW_Signals_SF.zip)|`25c81989df183df01b3e8a0aad5dffbe`|
-| `Cropped_Signals_SF.zip`  | Cropped and preprocessed data in CSV fotmat  | [65,000x3] |1.7 MBytes | [Download](/dataset/Cropped_Signals_SF.zip)|`bef4ecab320f06d8554ea6380940ec79`|
-| `RAWData_ITSC.mat`  | Raw data in mat format  | [325,000x3]| 7.2 MBytes | [Download](/dataset/RAWData_ITSC.mat)|`bb300cfdad3c16e7a12a480ee83cd310`|
-| `Data_ITSC.mat`  | Cropped and proprocessed data in mat format  | [65,000x3]| 1.5 MBytes | [Download](/dataset/Data_ITSC.mat)|`bb300cfdad3c16e7a12a480ee83cd310`|
+| `RAW_Signals.zip`  | Raw data in CSV format  | [325,000x3] |4.7 MBytes | [Download](/dataset/RAW_Signals.zip)|`54914b0d0612d8ca7b4f6ab5169f5c0e`|
+| `RAW_Signals_SF.zip`  | Raw data in CVS format arranged in folders | [325,000x3] |4.7 MBytes | [Download](/dataset/RAW_Signals_SF.zip)|`9102f70f8e4451c7d2da746a20dcf06a`|
+| `Cropped_Signals_SF.zip`  | Cropped and preprocessed data in CSV fotmat  | [65,000x3] |1.7 MBytes | [Download](/dataset/Cropped_Signals_SF.zip)|`3c54a178e39de825c5296d9fd44dcd44`|
+| `RAWData_ITSC.mat`  | Raw data in mat format  | [325,000x3]| 7.2 MBytes | [Download](/dataset/RAWData_ITSC.mat)|`514da2bad2f8dc2073f2338a2867b091`|
+| `Data_ITSC.mat`  | Cropped and proprocessed data in mat format  | [65,000x3]| 1.5 MBytes | [Download](/dataset/Data_ITSC.mat)|`6040a140a61542e40288106e9245c895`|
 
 Alternatively, you can clone this GitHub repository; the dataset appears under `dataset/`. This repository also contains some scripts for load and visualization.
    
