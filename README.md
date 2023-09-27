@@ -37,6 +37,10 @@
 
  * [Database](#database)
 
+ * [Loading data](#loading-data)
+
+ * [Implementations](#implementations)
+
  * [Benchmark](#benchmark)
 
  * [Publications](#publications)
@@ -103,9 +107,11 @@ The second and third folders, “RAW_Signals_SF” and “Cropped_Signals_SF” 
 
 In addition to the dataset, scripts to load and read the data are provided for Python, R, C, and MATLAB.
 
+## Loading data
+
 ## Benchmark
 
-
+## Implementations
 
 ## Publications
 
