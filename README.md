@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ibarram/ITSC">
-    <img src="/doc/img/ingenierias-png.png" alt="Logo" width="80" height="80">
+    <img src="/doc/img/escudo-jpg.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">ITSC-dataset</h3>
@@ -9,14 +9,14 @@
   <p align="center">
     Experimental dataset for classifying four levels of inter-turn short-circuit per phase in an induction motor
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ibarram/ITSC"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/ibarram/ITSC">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/ibarram/ITSC/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/ibarram/ITSC/issues">Request Feature</a>
   </p>
 </div>
 
