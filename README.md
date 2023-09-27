@@ -1,3 +1,10 @@
+[![version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/ibarram/ITSC/)
+[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/ibarram/ITSC)](https://github.com/ibarram/ITSC/)
+[![GitHub issues](https://img.shields.io/github/issues/ibarram/ITSC)](https://github.com/ibarram/ITSC/issues)
+[![Readme-ES](https://img.shields.io/badge/README-Español-green.svg)](README_ES.md)
+![Gitter](https://img.shields.io/gitter/room/ibarram/ITSC)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 <br />
 <div align="center">
   <a href="https://github.com/ibarram/ITSC">
@@ -19,13 +26,6 @@
     <a href="https://github.com/ibarram/ITSC/issues">Request Feature</a>
   </p>
 </div>
-
-[![version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/ibarram/ITSC/)
-[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/ibarram/ITSC)](https://github.com/ibarram/ITSC/)
-[![GitHub issues](https://img.shields.io/github/issues/ibarram/ITSC)](https://github.com/ibarram/ITSC/issues)
-[![Readme-ES](https://img.shields.io/badge/README-Español-green.svg)](README_ES.md)
-![Gitter](https://img.shields.io/gitter/room/ibarram/ITSC)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <details><summary>Table of Contents</summary><p>
  
