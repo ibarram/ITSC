@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ibarram/ITSC">
-    <img src="/doc/img/escudo-jpg.jpg" alt="Logo" width="80" height="80">
+    <img src="/doc/img/escudo-png.png" alt="Logo" width="120" height="120">
   </a>
 
   <h3 align="center">ITSC-dataset</h3>
@@ -19,9 +19,6 @@
     <a href="https://github.com/ibarram/ITSC/issues">Request Feature</a>
   </p>
 </div>
-
-
-# Experimental dataset for classifying four levels of inter-turn short-circuit per phase in an induction motor.
 
 [![version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/ibarram/ITSC/)
 [![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/ibarram/ITSC)](https://github.com/ibarram/ITSC/)
