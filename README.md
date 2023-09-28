@@ -125,7 +125,7 @@ The table below showcases the benchmarks submitted by contributors. Please note 
 
 | Preprocessing | Feature extraction | Classifier | Accurary | Precision (Phase A) | Precision (Phase B) | Precision (Phase C) | Submitter | Code | DOI |
 | --- | --- | --- | --- | --- | --- | --- |  --- | --- | --- |
-| None | None | None | None | None | None | None | [@ibarram](https://github.com/ibarram) | [:link:](/src/benchmark/) | [:link](https://doi.org/10.1016/j.engappai.2023.106971) |
+| None | None | None | None | None | None | None | [@ibarram](https://github.com/ibarram) | [:QSA](/src/benchmark/) | [:10.1016/j.engappai.2023.106971](https://doi.org/10.1016/j.engappai.2023.106971) |
 
 
 ## Implementations
