@@ -162,7 +162,7 @@ If you use ITSC database in a scientific publication, we would appreciate refere
 
 Biblatex entry:
 ```latex
-@article{xiao2017/online,
+@article{Cardenas2023,
   title        = {Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis},
   journal      = {Measurement},
   volume       = {X},
