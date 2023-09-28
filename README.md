@@ -119,7 +119,20 @@ In addition to the dataset, scripts to load and read the data are provided for P
 
 ## Benchmark
 
+Feel free to submit your benchmark by creating a new issue, and we'll display your results here. Before proceeding, ensure your benchmark doesn't already exist on this list. For further information, refer to our contributor guidelines.
+
+The table below showcases the benchmarks submitted by contributors. Please note that we haven't verified these results. You're encouraged to validate these results using the provided code from the submitter. Differences in test accuracy might arise from variations in training parameters, the validation process, and other factors. To amend any information in this table, simply raise a new issue.
+
+| Preprocessing | Feature extraction | Classifier | Accurary | Precision (Phase A) | Precision (Phase B) | Precision (Phase C) | Submitter | Code | DOI |
+| --- | --- | --- | --- | --- | --- | --- |  --- | --- | --- |
+| None | None | None | None | None | None | None | [@ibarram](https://github.com/ibarram) | [:link:](/src/benchmark/) | [:link](https://doi.org/10.1016/j.engappai.2023.106971) |
+
+
 ## Implementations
+
+### Quaternion Signal Analysis
+
+### Complex Signal Analysis
 
 ## Publications
 
