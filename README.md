@@ -95,6 +95,11 @@ git clone git@github.com:ibarram/ITSC.git
 
 The database is presented in two formats. The first format uses MATLAB software, providing two .mat files referring to the induction motor's inter-turn short-circuit (ITSC) faults. The organization of the .mat files is illustrated in , where the values and number of samples change depending on which file is selected. The RAWData_ITSC.mat contains all samples collected without processing, contrary to the Data_ITSC.mat, which includes fewer samples due to pre-processing.
 
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ibarram/ITSC/blob/main/doc/img/Fig1_info-Page-1b.png">
+ <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://github.com/ibarram/ITSC/blob/main/doc/img/Fig1.png">
+</picture>
+
 ![](doc/img/Fig1.png)
 Fig. 1.- Schematic representation of the data organized for MATLAB files.
 
