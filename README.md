@@ -105,7 +105,10 @@ Fig. 1.- Schematic representation of the data organized for MATLAB files.
 
 The database was organized into folders for the second format provided, as depicted in Figure 2. Each folder includes the acquired measurements in files. The first folder, “RAW_Signals” contains the files for all the repetitions performed, named SC_AX_BX_CX_R0_00Y.csv. According to the fault phase and severity level, a value between 0 and 4 is included, and the number of repetitions is indicated in “Y” as 1 to 5. For example, for the third repetition of a fault in phase A at 20%, the file is named SC_A2_B0_C0_R0_003.csv. Moreover, the files in this folder contain all measurements acquired without processing.
 
-![](doc/img/Fig2.png)
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="doc/img/Fig1_info-Page-2b.png">
+ <img alt="Display an illustration with a transparent background in light mode, and one with a white background in dark mode." src="doc/img/Fig2.png">
+</picture>
 Fig. 2.- Schematic representation of folders.
 
 The second and third folders, “RAW_Signals_SF” and “Cropped_Signals_SF” contain the .csv files corresponding to the phase, severity, and healthy state, as shown in Figure 2. The files in the subfolders are named SC_AX_BX_CX_00Y.  According to the fault phase and severity level, a value between 0 and 4 is included, and the number of repetitions is indicated in “Y” as 1 to 5. For example, for the second repetition of a fault in phase B at 30%, the file is named SC_A0_B3_002.csv.
