@@ -100,39 +100,27 @@ The database is presented in two formats. The first format uses MATLAB software,
  <img alt="Display an illustration with a transparent background in light mode, and one with a white background in dark mode." src="https://github.com/ibarram/ITSC/blob/main/doc/img/Fig1.png">
 </picture>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dark Mode/Light Mode Image Detection</title>
-    <style>
-        /* Default styles for light mode */
-        .light-mode-image {
-            display: block;
-        }
-        .dark-mode-image {
-            display: none;
-        }
-        /* Styles for dark mode */
-        @media (prefers-color-scheme: dark) {
-            .light-mode-image {
-                display: none;
-            }
-            .dark-mode-image {
-                display: block;
-            }
-        }
-    </style>
-</head>
-<body>
+<style>
+/* Default styles for light mode */
+.light-mode-image {
+  display: block;
+  }
+.dark-mode-image {
+  display: none;
+  }
+/* Styles for dark mode */
+@media (prefers-color-scheme: dark) {
+  .light-mode-image {
+    display: none;
+    }
+  .dark-mode-image {
+    display: block;
+    }
+  }
+</style>
 
 <img src="/doc/img/Fig1.png" alt="Light Mode Image" class="light-mode-image">
 <img src="/doc/img/Fig1_info-Page-1b.png" alt="Dark Mode Image" class="dark-mode-image">
-
-</body>
-</html>
 
 ![](doc/img/Fig1.png)
 Fig. 1.- Schematic representation of the data organized for MATLAB files.
