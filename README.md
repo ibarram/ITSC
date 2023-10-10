@@ -1,5 +1,6 @@
 [![version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/ibarram/ITSC/)
 [![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/ibarram/ITSC)](https://github.com/ibarram/ITSC/)
+[![GitHub discussions](https://img.shields.io/github/discussions/ibarram/ITSC)](https://github.com/ibarram/ITSC/discussions)
 [![GitHub issues](https://img.shields.io/github/issues/ibarram/ITSC)](https://github.com/ibarram/ITSC/issues)
 [![Readme-ES](https://img.shields.io/badge/README-Español-green.svg)](README_ES.md)
 ![Gitter](https://img.shields.io/gitter/room/ibarram/ITSC)
