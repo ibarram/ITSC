@@ -96,42 +96,15 @@ git clone git@github.com:ibarram/ITSC.git
 The database is presented in two formats. The first format uses MATLAB software, providing two .mat files referring to the induction motor's inter-turn short-circuit (ITSC) faults. The organization of the .mat files is illustrated in , where the values and number of samples change depending on which file is selected. The RAWData_ITSC.mat contains all samples collected without processing, contrary to the Data_ITSC.mat, which includes fewer samples due to pre-processing.
 
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ibarram/ITSC/blob/main/doc/img/Fig1_info-Page-1b.png">
- <img alt="Display an illustration with a transparent background in light mode, and one with a white background in dark mode." src="https://github.com/ibarram/ITSC/blob/main/doc/img/Fig1.png">
+ <source media="(prefers-color-scheme: dark)" srcset="doc/img/Fig1_info-Page-1b.png">
+ <img alt="Display an illustration with a transparent background in light mode, and one with a white background in dark mode." src="doc/img/Fig1.png">
 </picture>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<style>
-/* Default styles for light mode */
-.light-mode-image {
-  display: block;
-  }
-.dark-mode-image {
-  display: none;
-  }
-/* Styles for dark mode */
-@media (prefers-color-scheme: dark) {
-  .light-mode-image {
-    display: none;
-    }
-  .dark-mode-image {
-    display: block;
-    }
-  }
-</style>
-</head>
-<body>
-
-<img src="/doc/img/Fig1.png" alt="Light Mode Image" class="light-mode-image">
-<img src="/doc/img/Fig1_info-Page-1b.png" alt="Dark Mode Image" class="dark-mode-image">
-
-</body>
-</html>
 
 ![](doc/img/Fig1.png)
 Fig. 1.- Schematic representation of the data organized for MATLAB files.
+
+https://github.com/ibarram/ITSC/blob/main/doc/img/Fig1_info-Page-1b.png
+https://github.com/ibarram/ITSC/blob/main/doc/img/Fig1.png
 
 The database was organized into folders for the second format provided, as depicted in Figure 2. Each folder includes the acquired measurements in files. The first folder, “RAW_Signals” contains the files for all the repetitions performed, named SC_AX_BX_CX_R0_00Y.csv. According to the fault phase and severity level, a value between 0 and 4 is included, and the number of repetitions is indicated in “Y” as 1 to 5. For example, for the third repetition of a fault in phase A at 20%, the file is named SC_A2_B0_C0_R0_003.csv. Moreover, the files in this folder contain all measurements acquired without processing.
 
