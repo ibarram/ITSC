@@ -100,6 +100,9 @@ The database is presented in two formats. The first format uses MATLAB software,
  <img alt="Display an illustration with a transparent background in light mode, and one with a white background in dark mode." src="https://github.com/ibarram/ITSC/blob/main/doc/img/Fig1.png">
 </picture>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
 <style>
 /* Default styles for light mode */
 .light-mode-image {
@@ -118,9 +121,14 @@ The database is presented in two formats. The first format uses MATLAB software,
     }
   }
 </style>
+</head>
+<body>
 
 <img src="/doc/img/Fig1.png" alt="Light Mode Image" class="light-mode-image">
 <img src="/doc/img/Fig1_info-Page-1b.png" alt="Dark Mode Image" class="dark-mode-image">
+
+</body>
+</html>
 
 ![](doc/img/Fig1.png)
 Fig. 1.- Schematic representation of the data organized for MATLAB files.
