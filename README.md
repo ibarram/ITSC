@@ -112,17 +112,14 @@ The database is presented in two formats. The first format uses MATLAB software,
         .light-mode-image {
             display: block;
         }
-
         .dark-mode-image {
             display: none;
         }
-
         /* Styles for dark mode */
         @media (prefers-color-scheme: dark) {
             .light-mode-image {
                 display: none;
             }
-
             .dark-mode-image {
                 display: block;
             }
