@@ -99,12 +99,8 @@ The database is presented in two formats. The first format uses MATLAB software,
  <source media="(prefers-color-scheme: dark)" srcset="doc/img/Fig1_info-Page-1b.png">
  <img alt="Display an illustration with a transparent background in light mode, and one with a white background in dark mode." src="doc/img/Fig1.png">
 </picture>
-
-![](doc/img/Fig1.png)
 Fig. 1.- Schematic representation of the data organized for MATLAB files.
 
-https://github.com/ibarram/ITSC/blob/main/doc/img/Fig1_info-Page-1b.png
-https://github.com/ibarram/ITSC/blob/main/doc/img/Fig1.png
 
 The database was organized into folders for the second format provided, as depicted in Figure 2. Each folder includes the acquired measurements in files. The first folder, “RAW_Signals” contains the files for all the repetitions performed, named SC_AX_BX_CX_R0_00Y.csv. According to the fault phase and severity level, a value between 0 and 4 is included, and the number of repetitions is indicated in “Y” as 1 to 5. For example, for the third repetition of a fault in phase A at 20%, the file is named SC_A2_B0_C0_R0_003.csv. Moreover, the files in this folder contain all measurements acquired without processing.
 
