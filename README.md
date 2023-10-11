@@ -148,7 +148,7 @@ The table below showcases the benchmarks submitted by contributors. Please note 
 
 Publications from the scientific community that use the ITSC dataset:
 
-1. J.-J. Cardenas-Cornejo, M.-A. Ibarra-Manzano, A. Gonzalez-Parada, R. Castro-Sanchez, D.-. Almanza-Ojeda, "Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis", Measurement, Vol. X, 20xx, pages x-xx, ISSN: 0263-2241, DOI: 10.1016/j.measurement.X.X.X
+1. J.-J. Cardenas-Cornejo, M.-A. Ibarra-Manzano, A. Gonzalez-Parada, R. Castro-Sanchez, D.-. Almanza-Ojeda, "Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis", Measurement, Vol. X, pages x-xx, 2023, 113680, ISSN: 0263-2241, DOI: 10.1016/j.measurement.2023.113680
 
 ## Contact
 
@@ -168,7 +168,7 @@ Project Link: [ITSC](https://github.com/ibarram/ITSC)
 
 If you use ITSC database in a scientific publication, we would appreciate references to the following paper:
 
-**Juan-Jose Cardenas-Cornejo, Mario-Alberto Ibarra-Manzano, Adrian Gonzalez-Parada, Rogelio Castro-Sanchez, Dora-Luz Almanza-Ojeda. Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis. [DOI:X](https://doi.org/10.1016/j.measurement.X.X.X)**
+**Juan-Jose Cardenas-Cornejo, Mario-Alberto Ibarra-Manzano, Adrián González-Parada, Rogelio Castro-Sanchez, Dora-Luz Almanza-Ojeda, Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis, Measurement, 2023, 113680, ISSN 0263-2241, [DOI:X](https://doi.org/10.1016/j.measurement.2023.113680)**
 
 Biblatex entry:
 ```latex
@@ -177,10 +177,10 @@ Biblatex entry:
   journal      = {Measurement},
   volume       = {X},
   pages        = {X-X},
-  year         = {X},
+  year         = {2023},
   issn         = {0263-2241},
-  doi          = {https://doi.org/10.1016/j.measurement.X.X.X},
-  url          = {https://www.sciencedirect.com/science/article/X/X},
+  doi          = {https://doi.org/10.1016/j.measurement.2023.113680},
+  url          = {https://www.sciencedirect.com/science/article/abs/pii/S0263224123012447},
   author       = {Juan-Jose Cardenas-Cornejo and Mario-Alberto Ibarra-Manzano and Adrian Gonzalez-Parada and Rogelio Castro-Sanchez and Dora-Luz Almanza-Ojeda}
 }
 ```
