@@ -121,11 +121,11 @@ In addition to the dataset, scripts to load and read the data are provided for P
 
 ### MatLab
 
-
-
 ### C
 
 ### R
+
+In the script [load_data_Cropped_SF.R](/src/R/load_data_Cropped_SF.R), there is a function called "load_data_cropped" that allows for loading the dataset. An example of how to use this function is as follows:
 
 ## Benchmark
 
