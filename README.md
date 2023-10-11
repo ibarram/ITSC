@@ -168,7 +168,7 @@ Project Link: [ITSC](https://github.com/ibarram/ITSC)
 
 If you use ITSC database in a scientific publication, we would appreciate references to the following paper:
 
-**Juan-Jose Cardenas-Cornejo, Mario-Alberto Ibarra-Manzano, Adrián González-Parada, Rogelio Castro-Sanchez, Dora-Luz Almanza-Ojeda, Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis, Measurement, 2023, 113680, ISSN 0263-2241, [DOI:X](https://doi.org/10.1016/j.measurement.2023.113680)**
+**Juan-Jose Cardenas-Cornejo, Mario-Alberto Ibarra-Manzano, Adrián González-Parada, Rogelio Castro-Sanchez, Dora-Luz Almanza-Ojeda, Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis, Measurement, 2023, 113680, ISSN 0263-2241, [DOI:10.1016/j.measurement.2023.113680](https://doi.org/10.1016/j.measurement.2023.113680)**
 
 Biblatex entry:
 ```latex
