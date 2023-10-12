@@ -125,7 +125,16 @@ In addition to the dataset, scripts to load and read the data are provided for P
 
 ### R
 
-In the script [load_data_Cropped_SF.R](/src/R/load_data_Cropped_SF.R), there is a function called "load_data_cropped" that allows for loading the dataset. An example of how to use this function is as follows:
+In the script [load_data_Cropped_SF.R](/src/R/load_data_Cropped_SF.R), written in the [R programming language](https://www.r-project.org), you'll find the function "load_data_cropped" which facilitates the loading of the dataset. Here's an example of how to use this function:"
+
+Here's an example R function:
+
+```r
+load_data_cropped <- function(path_root) {
+  # Your R code here
+  return(data_frame)
+}
+
 
 ## Benchmark
 
