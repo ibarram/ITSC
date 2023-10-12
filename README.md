@@ -130,11 +130,19 @@ In the script [load_data_Cropped_SF.R](/src/R/load_data_Cropped_SF.R), written i
 Here's an example R function:
 
 ```r
-load_data_cropped <- function(path_root) {
-  # Your R code here
-  return(data_frame)
-}
-
+db<-load_data_cropped("~/Engine")
+ind1<-db$class=="SC_HLT"
+ind2<-db$rep==4
+tmp<-db$t[ind1&ind2]
+pA<-db$A[ind1&ind2]
+pB<-db$B[ind1&ind2]
+pC<-db$C[ind1&ind2]
+nm<-150;
+plot(tmp[1:nm], pA[1:nm], type = "l", col = "blue", lwd = 2, main = "ITSC", xlab = "Time", ylab = "Amplitude")
+lines(tmp[1:nm], pB[1:nm], col = "red")
+lines(tmp[1:nm], pC[1:nm], col = "green")
+legend("topright", inset=c(0, 0), legend=c("phase A","phase B", "phase C"), pch=c('-','-','-'),col=c("blue","red","green"), title="Data")
+```
 
 ## Benchmark
 
