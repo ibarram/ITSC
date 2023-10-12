@@ -143,6 +143,8 @@ legend("topright", inset=c(0, 0), legend=c("A","B", "C"), pch=c('-','-','-'),col
 
 ![](doc/img/Rplot_cropped.png)
 
+![](doc/img/Fig.gif)
+
 ### C
 
 ## Benchmark
