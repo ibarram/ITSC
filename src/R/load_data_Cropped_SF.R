@@ -10,7 +10,7 @@
 load_data_cropped <- function(path_root){
 
   tmp<-seq(from = 0, by=1e-3, length.out=1000)
-  path_bd <- paste(path_root, "dataset", "Cropped_Signals_SF", sep='/')
+  path_bd <- paste(path_root, "Cropped_Signals_SF", sep='/')
   
   folders <- list.files(path_bd)
   nfolders = length(folders)
@@ -79,7 +79,7 @@ load_data_cropped <- function(path_root){
 }
 
 # Example usage:
-db<-load_data_cropped("~/Engines")
+db<-load_data_cropped("~/Dropbox/Investigacion (1)/Motores/dataset")
 ind1<-db$class=="SC_HLT"
 ind2<-db$rep==4
 tmp<-db$t[ind1&ind2]

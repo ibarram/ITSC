@@ -113,24 +113,21 @@ Fig. 2.- Schematic representation of folders.
 
 The second and third folders, “RAW_Signals_SF” and “Cropped_Signals_SF” contain the .csv files corresponding to the phase, severity, and healthy state, as shown in Figure 2. The files in the subfolders are named SC_AX_BX_CX_00Y.  According to the fault phase and severity level, a value between 0 and 4 is included, and the number of repetitions is indicated in “Y” as 1 to 5. For example, for the second repetition of a fault in phase B at 30%, the file is named SC_A0_B3_002.csv.
 
-In addition to the dataset, scripts to load and read the data are provided for Python, R, C, and MATLAB.
+In addition to the dataset, scripts to load and read the data are provided for MATLAB, Python, R, and C
 
 ## Loading data
 
-### Python
-
 ### MatLab
 
-### C
+### Python
 
 ### R
 
 In the script [load_data_Cropped_SF.R](/src/R/load_data_Cropped_SF.R), written in the [R programming language](https://www.r-project.org), you'll find the function "load_data_cropped" which facilitates the loading of the dataset. Here's an example of how to use this function:"
 
-Here's an example R function:
-
 ```r
-db<-load_data_cropped("~/Engine")
+path_root="~/dataset"
+db<-load_data_cropped(path_root)
 ind1<-db$class=="SC_HLT"
 ind2<-db$rep==4
 tmp<-db$t[ind1&ind2]
@@ -141,8 +138,12 @@ nm<-150;
 plot(tmp[1:nm], pA[1:nm], type = "l", col = "blue", lwd = 2, main = "ITSC", xlab = "Time", ylab = "Amplitude")
 lines(tmp[1:nm], pB[1:nm], col = "red")
 lines(tmp[1:nm], pC[1:nm], col = "green")
-legend("topright", inset=c(0, 0), legend=c("phase A","phase B", "phase C"), pch=c('-','-','-'),col=c("blue","red","green"), title="Data")
+legend("topright", inset=c(0, 0), legend=c("A","B", "C"), pch=c('-','-','-'),col=c("blue","red","green"), title="Phases")
 ```
+
+![](doc/img/Rplot_cropped.png)
+
+### C
 
 ## Benchmark
 
