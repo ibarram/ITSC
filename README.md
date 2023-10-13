@@ -128,6 +128,39 @@ In the script [load_data_Cropped_SF.R](/src/R/load_data_Cropped_SF.R), written i
 ```r
 path_root="~/dataset"
 db<-load_data_cropped(path_root)
+head(db)
+
+
+        class rep fA fB fC     t        A          B          C
+1 SC_A0_B0_C1   1  0  0 10 0.000 2.520547 -2.3864827  0.3669159
+2 SC_A0_B0_C1   1  0  0 10 0.001 3.071474 -1.8815071 -0.7766104
+3 SC_A0_B0_C1   1  0  0 10 0.002 3.191175 -1.1129394 -1.8108357
+4 SC_A0_B0_C1   1  0  0 10 0.003 2.862758 -0.1886192 -2.5904976
+5 SC_A0_B0_C1   1  0  0 10 0.004 2.132251  0.7617812 -3.0061320
+6 SC_A0_B0_C1   1  0  0 10 0.005 1.102164  1.6050195 -2.9994312
+```
+
+In this repository, the [dataset](/dataset/Cropped_Signals_SF.zip) containing segmented signals is loaded for analysis.
+
+* The variable `path_root` represents the directory where the dataset containing the cropped signals has been extracted.
+* By using the `load_data_cropped()` function, the dataset is loaded into a variable named `db`, which is structured as a data frame.
+* To preview the contents of this data frame, the `head(db)` function can be used. This will display the initial rows of the data, providing insight into its structure.
+
+The data frame `db` contains nine columns, each representing different characteristics of the samples. These columns are:
+
+1. `class`: The class name associated with the sample.
+2. `rep`: The iteration number of the experiment for a given sample.
+3. `fA`: The percentage of failure in phase A, corresponding to the `class` and `rep` of the sample.
+4. `fB`: The percentage of failure in phase B, analogous to the `fA` column's description.
+5. `fC`: The percentage of failure in phase C, in line with the previous failure percentage columns.
+6. `t`: Time vector associated with the `class` and `rep`, relevant to signals A, B, and C.
+7. `A`: Signal for phase A of the sample, corresponding to the `class`, `rep`, and time `t`.
+8. `B`: Similar to A, this represents the signal for phase B.
+9. `C`: This column contains the signal for phase C, following the pattern of the previous signal columns.
+
+To query a specific signal, you can use the code provided below. For instance, if you aim to retrieve the `SC_HLT` class for the `4` repetition and wish to display `150` samples across all three phases, follow this example:
+
+```r
 ind1<-db$class=="SC_HLT"
 ind2<-db$rep==4
 tmp<-db$t[ind1&ind2]
@@ -141,9 +174,8 @@ lines(tmp[1:nm], pC[1:nm], col = "green")
 legend("topright", inset=c(0, 0), legend=c("A","B", "C"), pch=c('-','-','-'),col=c("blue","red","green"), title="Phases")
 ```
 
-![](doc/img/Rplot_cropped.png)
-
 ![](doc/img/Fig.gif)
+Figure for repetition 4 of class `SC_HLT` of `150` continous samples.
 
 ### C
 
