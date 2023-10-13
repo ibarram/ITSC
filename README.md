@@ -175,7 +175,8 @@ legend("topright", inset=c(0, 0), legend=c("A","B", "C"), pch=c('-','-','-'),col
 ```
 
 ![](doc/img/Fig.gif)
-Figure for repetition 4 of class `SC_HLT` of `150` continous samples.
+
+Fig. 3. Graph for repetition 4 of class `SC_HLT` of `150` continous samples.
 
 ### C
 
