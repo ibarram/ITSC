@@ -68,7 +68,7 @@ The testbench consists of a three-phase general-purpose squirrel-cage induction 
 
 The faults are selected using a control panel with switches for choosing the phase and severity of the inter-turn short-circuit fault. The dataset consists of 13 categories: 12 inter-turn short-circuit faults per phase at 10%, 20%, 30%, and 40%, and healthy. The electrical current signals of the 3 phases were acquired using a transducer-type split-core current transformer SCT013 model connected to a NI-9215 Series I/O module.
 
-The three phases were sampled simultaneously for 5 seconds, with a sampling rate of 1kHz. Five repetitions were performed for each severity level per phase and the healthy state, giving a total of [5x13=65] measurement files. The acquisitions were made under the steady state without load at 60Hz. The measurements were stored in .csv files of [5000x3] samples per class using LabVIEW. The raw dataset is named T_A”X”_B”X”_C”X”_R0_”Repetition”, where X represents the level of the fault, being 0 healthy conditions, 1-fault at 10%, 2-fault at 20%, 3-fault at 30% and 4-fault at 40%. For example, T_A0_B0_C1_R0_002 corresponds to phase C's second repetition of the inter-turn short-circuit fault at 10%.
+The three phases were sampled simultaneously for 5 seconds, with a sampling rate of 1kHz. Five repetitions were performed for each severity level per phase and the healthy state, giving a total of [5x13=65] measurement files. The acquisitions were made under the steady state without load at 60Hz. The measurements were stored in .csv files of [5000x3] samples per class using LabVIEW. The raw dataset is named SC_A”X”_B”X”_C”X”_”Repetition”, where X represents the level of the fault, being 0 healthy conditions, 1-fault at 10%, 2-fault at 20%, 3-fault at 30% and 4-fault at 40%. For example, SC_A0_B0_C1_002 corresponds to phase C's second repetition of the inter-turn short-circuit fault at 10%.
 
 The second folder of the dataset contains the files divided into folders according to the corresponding class. The files are named SC_A”X”_B”X”_C”X”_”repetition”; for example, SC_A0_B3_C0_004 corresponds to the fourth repetition of the fault in phase B at 30%.
 
@@ -123,6 +123,8 @@ In addition to the dataset, scripts to load and read the data are provided for M
 
 ### R
 
+![](doc/img/Fig3.gif)
+
 In the script [load_data_Cropped_SF.R](/src/R/load_data_Cropped_SF.R), written in the [R programming language](https://www.r-project.org), you'll find the function "load_data_cropped" which facilitates the loading of the dataset. Here's an example of how to use this function:"
 
 ```r
@@ -174,9 +176,9 @@ lines(tmp[1:nm], pC[1:nm], col = "green")
 legend("topright", inset=c(0, 0), legend=c("A","B", "C"), pch=c('-','-','-'),col=c("blue","red","green"), title="Phases")
 ```
 
-![](doc/img/Fig.gif)
+![](doc/img/Fig4.gif)
 
-Fig. 3. Graph for repetition `4` of class `SC_HLT` of `150` continous samples.
+Fig. 3. Graph for repetition 4 of class `SC_HLT` of `150` continous samples.
 
 ### C
 
