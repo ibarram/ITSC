@@ -66,15 +66,14 @@ The testbench consists of a three-phase general-purpose squirrel-cage induction 
 
 
 ![](doc/img/TestBed.png)
-
-Fig. 1. Below is a photograph of the test bench used to generate the database. This setup provides a visual representation of our data collection process.
+Fig. 1.- Above is a photograph of the test bench used to generate the database. This setup provides a visual representation of our data collection process.
 
 
 The faults are selected using a control panel with switches for choosing the phase and severity of the inter-turn short-circuit fault. The dataset consists of 13 categories: 12 inter-turn short-circuit faults per phase at 10%, 20%, 30%, and 40%, and healthy. The electrical current signals of the 3 phases were acquired using a transducer-type split-core current transformer SCT013 model connected to a NI-9215 Series I/O module.
 
-The three phases were sampled simultaneously for 5 seconds, with a sampling rate of 1kHz. Five repetitions were performed for each severity level per phase and the healthy state, giving a total of [5x13=65] measurement files. The acquisitions were made under the steady state without load at 60Hz. The measurements were stored in .csv files of [5000x3] samples per class using LabVIEW. The raw dataset is named SC_A"X"_B”X"_C"X"_"repetition”, where X represents the level of the fault, being 0 healthy conditions, 1-fault at 10%, 2-fault at 20%, 3-fault at 30% and 4-fault at 40%. For example, SC_A0_B0_C1_002 corresponds to phase C's second repetition of the inter-turn short-circuit fault at 10%.
+The three phases were sampled simultaneously for 5 seconds, with a sampling rate of 1kHz. Five repetitions were performed for each severity level per phase and the healthy state, giving a total of [5x13=65] measurement files. The acquisitions were made under the steady state without load at 60Hz. The measurements were stored in .csv files of [5000x3] samples per class using LabVIEW. The raw dataset is named SC_A"X"_B”X"_C"X"\_"repetition”, where X represents the level of the fault, being 0 healthy conditions, 1-fault at 10%, 2-fault at 20%, 3-fault at 30% and 4-fault at 40%. For example, SC_A0_B0_C1_002 corresponds to phase C's second repetition of the inter-turn short-circuit fault at 10%.
 
-The second folder of the dataset contains the files divided into folders according to the corresponding class. The files are named SC_A”X”_B”X”_C”X”_"repetition"; for example, SC_A0_B3_C0_004 corresponds to the fourth repetition of the fault in phase B at 30%.
+The second folder of the dataset contains the files divided into folders according to the corresponding class. The files are named SC_A”X”_B”X”_C”X”\_"repetition"; for example, SC_A0_B3_C0_004 corresponds to the fourth repetition of the fault in phase B at 30%.
 
 Finally, a third folder provides the current signals filtered and pre-processed to localize the samples in a steady state to the fault. Therefore, from the [5000x3] samples of the raw data, it was cropped [1000x3] samples. Therefore, the size of this dataset is [classes x repetitions x (n_samples x n_phases)], giving [13 x 5 x (1000x3)] = [65000x3] samples in total.
 
@@ -104,7 +103,7 @@ The database is presented in two formats. The first format uses MATLAB software,
  <source media="(prefers-color-scheme: dark)" srcset="doc/img/Fig1_info-Page-1b.png">
  <img alt="Display an illustration with a transparent background in light mode, and one with a white background in dark mode." src="doc/img/Fig1.png">
 </picture>
-Fig. 1.- Schematic representation of the data organized for MATLAB files.
+Fig. 2.- Schematic representation of the data organized for MATLAB files.
 
 
 The database was organized into folders for the second format provided, as depicted in Figure 2. Each folder includes the acquired measurements in files. The first folder, “RAW_Signals” contains the files for all the repetitions performed, named SC_AX_BX_CX_00Y.csv. According to the fault phase and severity level, a value between 0 and 4 is included, and the number of repetitions is indicated in “Y” as 1 to 5. For example, for the third repetition of a fault in phase A at 20%, the file is named SC_A2_B0_C0_003.csv. Moreover, the files in this folder contain all measurements acquired without processing.
@@ -113,7 +112,7 @@ The database was organized into folders for the second format provided, as depic
  <source media="(prefers-color-scheme: dark)" srcset="doc/img/Fig1_info-Page-2b.png">
  <img alt="Display an illustration with a transparent background in light mode, and one with a white background in dark mode." src="doc/img/Fig2.png">
 </picture>
-Fig. 2.- Schematic representation of folders.
+Fig. 3.- Schematic representation of folders.
 
 The second and third folders, “RAW_Signals_SF” and “Cropped_Signals_SF” contain the .csv files corresponding to the phase, severity, and healthy state, as shown in Figure 2. The files in the subfolders are named SC_AX_BX_CX_00Y.  According to the fault phase and severity level, a value between 0 and 4 is included, and the number of repetitions is indicated in “Y” as 1 to 5. For example, for the second repetition of a fault in phase B at 30%, the file is named SC_A0_B3_002.csv.
 
