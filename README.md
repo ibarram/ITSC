@@ -123,9 +123,63 @@ In addition to the dataset, scripts to load and read the data are provided for M
 
 ### R
 
+In the [load_data_Raw.r](/src/R/load_data_Raw.r) script, written in the [R programming language](https://www.r-project.org), the function "load_data_raw" is provided to streamline the loading of the dataset. Below is an example illustrating how to use this function:
+
+```r
+path_root="~/dataset"
+db<-load_data_raw(path_root)
+head(db)
+
+        class rep fA fB fC     t         A        B         C
+1 SC_A0_B0_C1   1  0  0 10 0.000  2.605652 1.510322 -4.665876
+2 SC_A0_B0_C1   1  0  0 10 0.001 -0.167529 8.259827 -8.463958
+3 SC_A0_B0_C1   1  0  0 10 0.002 -2.325757 5.854686 -8.046159
+4 SC_A0_B0_C1   1  0  0 10 0.003 -5.714846 3.447656  2.986652
+5 SC_A0_B0_C1   1  0  0 10 0.004 -7.311680 4.974165 -0.648386
+6 SC_A0_B0_C1   1  0  0 10 0.005 -6.268270 2.720447 -2.884819
+```
+
+This repository includes a [dataset](/dataset/RAW_Signals.zip) comprised of raw signals for analysis.
+
+The `path_root` variable points to the directory where the dataset with raw signals has been unpacked.
+Using the `load_data_raw()` function, the dataset gets loaded into the `db` variable, formatted as a data frame.
+To get a glimpse of the data, you can employ the `head(db)` function. This offers a look at the initial rows, providing a clear understanding of the data structure.
+
+The `db` data frame incorporates nine columns, each signifying various attributes of the samples:
+
+* `class`: The designated class name of the sample.
+* `rep`: The iteration or repetition number associated with the experiment for the sample.
+* `fA`: Percentage of failure in phase A, linked to the `class` and `rep` of the sample.
+* `fB`: Percentage of failure in phase B, analogous to the `fA` description.
+* `fC`: Percentage of failure in phase C, consistent with the earlier failure percentage column descriptions.
+* `t`: Time vector tied to the class and rep, relevant for signals `A`, `B`, and `C`.
+* `A`: The signal of phase A, related to the `class`, `rep`, and timestamp `t`.
+* `B`: Reflecting the same structure as `A`, this represents the signal for phase B.
+* `C`: Signifying the signal for phase C, this follows the structuring of the preceding signal columns.
+
+For those looking to query a specific signal, refer to the code below. As an example, if you wish to fetch the `SC_A0_B1_C0` class from the 4th repetition and display `150` samples spanning all three phases, see the following example:"
+
+```r
+ind1<-db$class=="SC_A0_B1_C0"
+ind2<-db$rep==2
+tmp<-db$t[ind1&ind2]
+pA<-db$A[ind1&ind2]
+pB<-db$B[ind1&ind2]
+pC<-db$C[ind1&ind2]
+nmi<-1000
+nmf<-1150
+plot(tmp[nmi:nmf], pA[nmi:nmf], type = "l", col = "blue", lwd = 2, main = "ITSC", xlab = "Time", ylab = "Amplitude")
+lines(tmp[nmi:nmf], pB[nmi:nmf], col = "red")
+lines(tmp[nmi:nmf], pC[nmi:nmf], col = "green")
+legend("topright", inset=c(0, 0), legend=c("A","B", "C"), pch=c('-','-','-'),col=c("blue","red","green"), title="Phases")
+```
+
+
 ![](doc/img/Fig3.gif)
 
-In the script [load_data_Cropped_SF.R](/src/R/load_data_Cropped_SF.R), written in the [R programming language](https://www.r-project.org), you'll find the function "load_data_cropped" which facilitates the loading of the dataset. Here's an example of how to use this function:"
+Fig. 3. Plot of the raw signal for repetition `2` of the `SC_A0_B1_C0` class, showcasing `150` continuous samples
+
+In the script [load_data_Cropped_SF.R](/src/R/load_data_Cropped_SF.R), written in the [R programming language](https://www.r-project.org), you'll find the function "load_data_cropped" which facilitates the loading of the dataset. Here's an example of how to use this function:
 
 ```r
 path_root="~/dataset"
@@ -155,9 +209,9 @@ The data frame `db` contains nine columns, each representing different character
 3. `fA`: The percentage of failure in phase A, corresponding to the `class` and `rep` of the sample.
 4. `fB`: The percentage of failure in phase B, analogous to the `fA` column's description.
 5. `fC`: The percentage of failure in phase C, in line with the previous failure percentage columns.
-6. `t`: Time vector associated with the `class` and `rep`, relevant to signals A, B, and C.
+6. `t`: Time vector associated with the `class` and `rep`, relevant to signals `A`, `B`, and `C`.
 7. `A`: Signal for phase A of the sample, corresponding to the `class`, `rep`, and time `t`.
-8. `B`: Similar to A, this represents the signal for phase B.
+8. `B`: Similar to `A`, this represents the signal for phase B.
 9. `C`: This column contains the signal for phase C, following the pattern of the previous signal columns.
 
 To query a specific signal, you can use the code provided below. For instance, if you aim to retrieve the `SC_HLT` class for the `4` repetition and wish to display `150` samples across all three phases, follow this example:
@@ -176,9 +230,10 @@ lines(tmp[1:nm], pC[1:nm], col = "green")
 legend("topright", inset=c(0, 0), legend=c("A","B", "C"), pch=c('-','-','-'),col=c("blue","red","green"), title="Phases")
 ```
 
+
 ![](doc/img/Fig4.gif)
 
-Fig. 3. Graph for repetition 4 of class `SC_HLT` of `150` continous samples.
+Fig. 4. Plot of the preprocessed signal for repetition `4` of the `SC_HLT` class, showcasing `150` continuous samples
 
 ### C
 
@@ -203,7 +258,7 @@ The table below showcases the benchmarks submitted by contributors. Please note 
 
 Publications from the scientific community that use the ITSC dataset:
 
-1. J.-J. Cardenas-Cornejo, M.-A. Ibarra-Manzano, A. Gonzalez-Parada, R. Castro-Sanchez, D.-. Almanza-Ojeda, "Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis", Measurement, Vol. X, pages x-xx, 2023, 113680, ISSN: 0263-2241, DOI: 10.1016/j.measurement.2023.113680
+1. J.-J. Cardenas-Cornejo, M.-A. Ibarra-Manzano, A. Gonzalez-Parada, R. Castro-Sanchez, D.-. Almanza-Ojeda, "Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis", Measurement, Vol. 222, pages 1-10, 2023, 113680, ISSN: 0263-2241, DOI: 10.1016/j.measurement.2023.113680
 
 ## Contact
 
@@ -230,8 +285,8 @@ Biblatex entry:
 @article{Cardenas2023,
   title        = {Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis},
   journal      = {Measurement},
-  volume       = {X},
-  pages        = {X-X},
+  volume       = {222},
+  pages        = {1-10},
   year         = {2023},
   issn         = {0263-2241},
   doi          = {https://doi.org/10.1016/j.measurement.2023.113680},

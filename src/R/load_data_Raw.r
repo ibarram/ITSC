@@ -89,8 +89,8 @@ tmp<-db$t[ind1&ind2]
 pA<-db$A[ind1&ind2]
 pB<-db$B[ind1&ind2]
 pC<-db$C[ind1&ind2]
-nmi = 1000
-nmf<-1150;
+nmi<-1000
+nmf<-1150
 plot(tmp[nmi:nmf], pA[nmi:nmf], type = "l", col = "blue", lwd = 2, main = "ITSC", xlab = "Time", ylab = "Amplitude")
 lines(tmp[nmi:nmf], pB[nmi:nmf], col = "red")
 lines(tmp[nmi:nmf], pC[nmi:nmf], col = "green")
