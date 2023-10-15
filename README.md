@@ -99,20 +99,25 @@ git clone git@github.com:ibarram/ITSC.git
 
 The database is presented in two formats. The first format uses MATLAB software, providing two .mat files referring to the induction motor's inter-turn short-circuit (ITSC) faults. The organization of the .mat files is illustrated in , where the values and number of samples change depending on which file is selected. The RAWData_ITSC.mat contains all samples collected without processing, contrary to the Data_ITSC.mat, which includes fewer samples due to pre-processing.
 
+
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="doc/img/Fig1_info-Page-1b.png">
  <img alt="Display an illustration with a transparent background in light mode, and one with a white background in dark mode." src="doc/img/Fig1.png">
 </picture>
+
 Fig. 2.- Schematic representation of the data organized for MATLAB files.
 
 
 The database was organized into folders for the second format provided, as depicted in Figure 2. Each folder includes the acquired measurements in files. The first folder, “RAW_Signals” contains the files for all the repetitions performed, named SC_AX_BX_CX_00Y.csv. According to the fault phase and severity level, a value between 0 and 4 is included, and the number of repetitions is indicated in “Y” as 1 to 5. For example, for the third repetition of a fault in phase A at 20%, the file is named SC_A2_B0_C0_003.csv. Moreover, the files in this folder contain all measurements acquired without processing.
 
+
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="doc/img/Fig1_info-Page-2b.png">
  <img alt="Display an illustration with a transparent background in light mode, and one with a white background in dark mode." src="doc/img/Fig2.png">
 </picture>
+
 Fig. 3.- Schematic representation of folders.
+
 
 The second and third folders, “RAW_Signals_SF” and “Cropped_Signals_SF” contain the .csv files corresponding to the phase, severity, and healthy state, as shown in Figure 2. The files in the subfolders are named SC_AX_BX_CX_00Y.  According to the fault phase and severity level, a value between 0 and 4 is included, and the number of repetitions is indicated in “Y” as 1 to 5. For example, for the second repetition of a fault in phase B at 30%, the file is named SC_A0_B3_002.csv.
 
@@ -120,7 +125,7 @@ In addition to the dataset, scripts to load and read the data are provided for M
 
 ## Loading data
 
-
+Multiple scripts were created to efficiently load the [dataset](/dataset/). These scripts facilitate the loading of both raw and processed data, enabling work at different stages of analysis. The scripts have been developed in [MatLab](https://www.mathworks.com/products/matlab.html), [Python](https://www.python.org/), [R](https://www.r-project.org/), and [C](https://dl.acm.org/doi/10.1145/155360.155580).
 
 ### MatLab
 
@@ -184,6 +189,7 @@ legend("topright", inset=c(0, 0), legend=c("A","B", "C"), pch=c('-','-','-'),col
 
 Fig. 3. Plot of the raw signal for repetition `2` of the `SC_A0_B1_C0` class, showcasing `150` continuous samples
 
+
 In the script [load_data_Cropped_SF.R](/src/R/load_data_Cropped_SF.R), written in the [R programming language](https://www.r-project.org), you'll find the function "load_data_cropped" which facilitates the loading of the dataset. Here's an example of how to use this function:
 
 ```r
@@ -239,6 +245,7 @@ legend("topright", inset=c(0, 0), legend=c("A","B", "C"), pch=c('-','-','-'),col
 ![](doc/img/Fig4.gif)
 
 Fig. 4. Plot of the preprocessed signal for repetition `4` of the `SC_HLT` class, showcasing `150` continuous samples
+
 
 ### C
 
