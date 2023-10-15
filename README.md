@@ -123,7 +123,7 @@ In addition to the dataset, scripts to load and read the data are provided for M
 
 ### R
 
-In the [load_data_Raw.r](/src/R/load_data_Raw.r) script, written in the [R programming language](https://www.r-project.org), the function "load_data_raw" is provided to streamline the loading of the dataset. Below is an example illustrating how to use this function:
+In the [load_data_Raw.r](/src/R/load_data_Raw.r) script, written in the [R programming language](https://www.r-project.org), the function `load_data_raw` is provided to streamline the loading of the dataset. Below is an example illustrating how to use this function:
 
 ```r
 path_root="~/dataset"
@@ -157,7 +157,7 @@ The `db` data frame incorporates nine columns, each signifying various attribute
 * `B`: Reflecting the same structure as `A`, this represents the signal for phase B.
 * `C`: Signifying the signal for phase C, this follows the structuring of the preceding signal columns.
 
-For those looking to query a specific signal, refer to the code below. As an example, if you wish to fetch the `SC_A0_B1_C0` class from the 4th repetition and display `150` samples spanning all three phases, see the following example:"
+For those looking to query a specific signal, refer to the code below. As an example, if you wish to fetch the `SC_A0_B1_C0` class from the `2`th repetition and display `150` samples spanning all three phases, see the following example:"
 
 ```r
 ind1<-db$class=="SC_A0_B1_C0"
