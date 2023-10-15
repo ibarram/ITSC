@@ -64,13 +64,17 @@ The dataset was acquired in the Laboratory of Electrical Engineering, Division o
 
 The testbench consists of a three-phase general-purpose squirrel-cage induction motor, Baldor CM3542 model, with a power of 0.75 hp, 208-230/460 AC voltage, and 1725 rpm at 60 Hz. The motor has 59 turns per pole with a double-star connection, and it was used to a nominal current of 3A at 230 VAC. 
 
+
 ![](doc/img/TestBed.png)
+
+Fig. 1. Below is a photograph of the test bench used to generate the database. This setup provides a visual representation of our data collection process.
+
 
 The faults are selected using a control panel with switches for choosing the phase and severity of the inter-turn short-circuit fault. The dataset consists of 13 categories: 12 inter-turn short-circuit faults per phase at 10%, 20%, 30%, and 40%, and healthy. The electrical current signals of the 3 phases were acquired using a transducer-type split-core current transformer SCT013 model connected to a NI-9215 Series I/O module.
 
-The three phases were sampled simultaneously for 5 seconds, with a sampling rate of 1kHz. Five repetitions were performed for each severity level per phase and the healthy state, giving a total of [5x13=65] measurement files. The acquisitions were made under the steady state without load at 60Hz. The measurements were stored in .csv files of [5000x3] samples per class using LabVIEW. The raw dataset is named SC_A"X"_B”X"_C"X"__"repetition”, where X represents the level of the fault, being 0 healthy conditions, 1-fault at 10%, 2-fault at 20%, 3-fault at 30% and 4-fault at 40%. For example, SC_A0_B0_C1_002 corresponds to phase C's second repetition of the inter-turn short-circuit fault at 10%.
+The three phases were sampled simultaneously for 5 seconds, with a sampling rate of 1kHz. Five repetitions were performed for each severity level per phase and the healthy state, giving a total of [5x13=65] measurement files. The acquisitions were made under the steady state without load at 60Hz. The measurements were stored in .csv files of [5000x3] samples per class using LabVIEW. The raw dataset is named SC_A"X"_B”X"_C"X"_"repetition”, where X represents the level of the fault, being 0 healthy conditions, 1-fault at 10%, 2-fault at 20%, 3-fault at 30% and 4-fault at 40%. For example, SC_A0_B0_C1_002 corresponds to phase C's second repetition of the inter-turn short-circuit fault at 10%.
 
-The second folder of the dataset contains the files divided into folders according to the corresponding class. The files are named SC_A”X”_B”X”_C”X”__"repetition"; for example, SC_A0_B3_C0_004 corresponds to the fourth repetition of the fault in phase B at 30%.
+The second folder of the dataset contains the files divided into folders according to the corresponding class. The files are named SC_A”X”_B”X”_C”X”_"repetition"; for example, SC_A0_B3_C0_004 corresponds to the fourth repetition of the fault in phase B at 30%.
 
 Finally, a third folder provides the current signals filtered and pre-processed to localize the samples in a steady state to the fault. Therefore, from the [5000x3] samples of the raw data, it was cropped [1000x3] samples. Therefore, the size of this dataset is [classes x repetitions x (n_samples x n_phases)], giving [13 x 5 x (1000x3)] = [65000x3] samples in total.
 
@@ -117,6 +121,8 @@ In addition to the dataset, scripts to load and read the data are provided for M
 
 ## Loading data
 
+
+
 ### MatLab
 
 ### Python
@@ -147,15 +153,15 @@ To get a glimpse of the data, you can employ the `head(db)` function. This offer
 
 The `db` data frame incorporates nine columns, each signifying various attributes of the samples:
 
-* `class`: The designated class name of the sample.
-* `rep`: The iteration or repetition number associated with the experiment for the sample.
-* `fA`: Percentage of failure in phase A, linked to the `class` and `rep` of the sample.
-* `fB`: Percentage of failure in phase B, analogous to the `fA` description.
-* `fC`: Percentage of failure in phase C, consistent with the earlier failure percentage column descriptions.
-* `t`: Time vector tied to the class and rep, relevant for signals `A`, `B`, and `C`.
-* `A`: The signal of phase A, related to the `class`, `rep`, and timestamp `t`.
-* `B`: Reflecting the same structure as `A`, this represents the signal for phase B.
-* `C`: Signifying the signal for phase C, this follows the structuring of the preceding signal columns.
+1. `class`: The designated class name of the sample.
+2. `rep`: The iteration or repetition number associated with the experiment for the sample.
+3. `fA`: Percentage of failure in phase A, linked to the `class` and `rep` of the sample.
+4. `fB`: Percentage of failure in phase B, analogous to the `fA` description.
+5. `fC`: Percentage of failure in phase C, consistent with the earlier failure percentage column descriptions.
+6. `t`: Time vector tied to the class and rep, relevant for signals `A`, `B`, and `C`.
+7. `A`: The signal of phase A, related to the `class`, `rep`, and timestamp `t`.
+8. `B`: Reflecting the same structure as `A`, this represents the signal for phase B.
+9. `C`: Signifying the signal for phase C, this follows the structuring of the preceding signal columns.
 
 For those looking to query a specific signal, refer to the code below. As an example, if you wish to fetch the `SC_A0_B1_C0` class from the `2`th repetition and display `150` samples spanning all three phases, see the following example:"
 
