@@ -255,9 +255,12 @@ Feel free to submit your benchmark by creating a new issue, and we'll display yo
 
 The table below showcases the benchmarks submitted by contributors. Please note that we haven't verified these results. You're encouraged to validate these results using the provided code from the submitter. Differences in test accuracy might arise from variations in training parameters, the validation process, and other factors. To amend any information in this table, simply raise a new issue.
 
-| Preprocessing | Feature extraction | Classifier | Accurary | Precision (Phase A) | Precision (Phase B) | Precision (Phase C) | Submitter | Code | DOI |
-| --- | --- | --- | --- | --- | --- | --- |  --- | --- | --- |
-| Butterworth filter | Quaternion | 0.7948±0.0495 | None | None | None | None | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
+| Preprocessing | Feature extraction | Classifier | Number of classes | Accurary | Precision (Phase A) | Precision (Phase B) | Precision (Phase C) | Submitter | Code | DOI |
+| --- | --- | --- | --- | --- | --- | --- | --- |  --- | --- | --- |
+| Butterworth filter | Quaternion | None | 13 | 0.7948±0.0495 | None | None | None | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
+| Butterworth filter | Quaternion | None | 5 | None | 0.9267±0.0858 | None | None | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
+| Butterworth filter | Quaternion | None | 5 | None | None | 0.9267±0.0966 | None | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
+| Butterworth filter | Quaternion | None | 5 | None | None | None | 0.9800±0.0632 | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
 
 
 ## Implementations
