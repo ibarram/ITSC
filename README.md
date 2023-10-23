@@ -257,7 +257,7 @@ The table below showcases the benchmarks submitted by contributors. Please note 
 
 | Preprocessing | Feature extraction | Classifier | Accurary | Precision (Phase A) | Precision (Phase B) | Precision (Phase C) | Submitter | Code | DOI |
 | --- | --- | --- | --- | --- | --- | --- |  --- | --- | --- |
-| Butterworth filter | Quaternion | None | None | None | None | None | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
+| Butterworth filter | Quaternion | 0.7948±0.0495 | None | None | None | None | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
 
 
 ## Implementations
