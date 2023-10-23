@@ -258,9 +258,9 @@ The table below showcases the benchmarks submitted by contributors. Please note 
 | Preprocessing | Feature extraction | Classifier | Number of classes | Accurary | Precision (Phase A) | Precision (Phase B) | Precision (Phase C) | Submitter | Code | DOI |
 | --- | --- | --- | --- | --- | --- | --- | --- |  --- | --- | --- |
 | Butterworth filter | Quaternion | None | 13 | 0.7948±0.0495 | None | None | None | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
-| Butterworth filter | Quaternion | None | 5 | None | 0.9267±0.0858 | None | None | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
-| Butterworth filter | Quaternion | None | 5 | None | None | 0.9267±0.0966 | None | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
-| Butterworth filter | Quaternion | None | 5 | None | None | None | 0.9800±0.0632 | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
+| Butterworth filter | Quaternion | 0.9267±0.0858 | 5 | None | 0.9267±0.0858 | Not applicable | Not applicable | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
+| Butterworth filter | Quaternion | None | 5 | 0.9267±0.0966 | Not applicable | 0.9267±0.0966 | Not applicable | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
+| Butterworth filter | Quaternion | None | 5 | 0.9800±0.0632 | Not applicable | Not applicable | 0.9800±0.0632 | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
 
 
 ## Implementations
