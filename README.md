@@ -257,7 +257,7 @@ The table below showcases the benchmarks submitted by contributors. Please note 
 
 | Preprocessing | Feature extraction | Classifier | Accurary | Precision (Phase A) | Precision (Phase B) | Precision (Phase C) | Submitter | Code | DOI |
 | --- | --- | --- | --- | --- | --- | --- |  --- | --- | --- |
-| None | None | None | None | None | None | None | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
+| Butterworth filter | Quaternion | None | None | None | None | None | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
 
 
 ## Implementations
@@ -290,20 +290,22 @@ Project Link: [ITSC](https://github.com/ibarram/ITSC)
 
 If you use ITSC database in a scientific publication, we would appreciate references to the following paper:
 
-**Juan-Jose Cardenas-Cornejo, Mario-Alberto Ibarra-Manzano, Adrián González-Parada, Rogelio Castro-Sanchez, Dora-Luz Almanza-Ojeda, Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis, Measurement, 2023, 113680, ISSN 0263-2241, [DOI:10.1016/j.measurement.2023.113680](https://doi.org/10.1016/j.measurement.2023.113680)**
+**Juan-Jose Cardenas-Cornejo, Mario-Alberto Ibarra-Manzano, Adrián González-Parada, Rogelio Castro-Sanchez, Dora-Luz Almanza-Ojeda, Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis, Measurement, Volume 222, 2023, 113680, ISSN 0263-2241, [DOI:10.1016/j.measurement.2023.113680](https://doi.org/10.1016/j.measurement.2023.113680)**
 
 Biblatex entry:
 ```latex
-@article{Cardenas2023,
-  title        = {Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis},
-  journal      = {Measurement},
-  volume       = {222},
-  pages        = {1-10},
-  year         = {2023},
-  issn         = {0263-2241},
-  doi          = {https://doi.org/10.1016/j.measurement.2023.113680},
-  url          = {https://www.sciencedirect.com/science/article/abs/pii/S0263224123012447},
-  author       = {Juan-Jose Cardenas-Cornejo and Mario-Alberto Ibarra-Manzano and Adrian Gonzalez-Parada and Rogelio Castro-Sanchez and Dora-Luz Almanza-Ojeda}
+@article{CARDENASCORNEJO2023113680,
+title = {Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis},
+journal = {Measurement},
+volume = {222},
+pages = {113680},
+year = {2023},
+issn = {0263-2241},
+doi = {https://doi.org/10.1016/j.measurement.2023.113680},
+url = {https://www.sciencedirect.com/science/article/pii/S0263224123012447},
+author = {Juan-Jose Cardenas-Cornejo and Mario-Alberto Ibarra-Manzano and Adrián González-Parada and Rogelio Castro-Sanchez and Dora-Luz Almanza-Ojeda},
+keywords = {Inter-turn short-circuit faults, Quaternion analysis, Multiclass dataset, Squirrel cage induction motors},
+abstract = {Short-circuit in three-phase engines are highly destructive faults, which overheat and damage internal elements reducing efficiency and lifetime. New multi-class approaches are best trained with measurements from three-phase motors instrumented with short-circuit faults because it offers natural and physical signal behavior. This work overcomes the lack of datasets by acquiring current signals from an instrumented induction motor to create a dataset of inter-turn short-circuit (ITSC) faults at four levels per phase. The dataset generated consists of 13 categories with five repetitions per trial for a squirrel cage motor induction. The proposed classification method is based on quaternions that simultaneously model the three-phase signals as pure quaternions. Three statistical features are extracted from quaternions, and a decision tree classifier is trained per feature. Thereby, a boosting scheme is used to calculate the resulting category. Boosting method improves the classification results of decision tree models, showing fast, accurate, and robust performance.}
 }
 ```
 
