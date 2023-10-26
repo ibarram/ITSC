@@ -255,12 +255,12 @@ Feel free to submit your benchmark by creating a new issue, and we'll display yo
 
 The table below showcases the benchmarks submitted by contributors. Please note that we haven't verified these results. You're encouraged to validate these results using the provided code from the submitter. Differences in test accuracy might arise from variations in training parameters, the validation process, and other factors. To amend any information in this table, simply raise a new issue.
 
-| Preprocessing | Feature extraction | Classifier | Number of classes | Accurary | Precision (Phase A) | Precision (Phase B) | Precision (Phase C) | Submitter | Code | DOI |
+| Preprocessing | Feature extraction | Classifier | Number of classes | Accurary | Failure percentage | Precision (Phase A) | Precision (Phase B) | Precision (Phase C) | Submitter | Code | DOI |
 | --- | --- | --- | --- | --- | --- | --- | --- |  --- | --- | --- |
 | Butterworth filter | Quaternion | Boosting Decision Tree | 13 | 0.7948±0.0495 | None | None | None | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
-| Butterworth filter | Quaternion | Boosting Decision Tree | 5 | 0.9267±0.0858 | 0.9267±0.0858 | --- | --- | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
-| Butterworth filter | Quaternion | Boosting Decision Tree | 5 | 0.9267±0.0966 | --- | 0.9267±0.0966 | --- | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
-| Butterworth filter | Quaternion | Boosting Decision Tree | 5 | 0.9800±0.0632 | --- | --- | 0.9800±0.0632 | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
+| Butterworth filter | Quaternion | Boosting Decision Tree | 5 | 0.9267±0.0858 | <p> 0% <p> 10% <p> 20% <p> 30% <p> 40% | 0.9267±0.0858 | --- | --- | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
+| Butterworth filter | Quaternion | Boosting Decision Tree | 5 | 0.9267±0.0966 | <p> 0% <p> 10% <p> 20% <p> 30% <p> 40% | --- | 0.9267±0.0966 | --- | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
+| Butterworth filter | Quaternion | Boosting Decision Tree | 5 | 0.9800±0.0632 | <p> 0% <p> 10% <p> 20% <p> 30% <p> 40% | --- | --- | 0.9800±0.0632 | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
 
 
 | Collumns |||
