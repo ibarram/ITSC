@@ -263,13 +263,11 @@ The table below showcases the benchmarks submitted by contributors. Please note 
 | Butterworth filter | Quaternion | Boosting Decision Tree | 5 | 0.9800±0.0632 | --- | --- | 0.9800±0.0632 | [@JuanJCC75](https://github.com/JuanJCC75) | [:link:](/src/benchmark/) | [:link:](https://doi.org/10.1016/j.measurement.2023.113680) |
 
 
-| column 1 | column 2 |
-|----------|----------|
-| value    | * value 1|
-|          | * value 2|
-|----------|----------|
-| value    | * value 1|
-|          | * value 2|
+| Collumns |||
+| --- | --- | --- |
+| First | Second | Third |
+| First 1 | <p> Second 2 <p> Second 2 | <p> Third 1 <p> Third 2 <p> Third 3 |
+| * List 1 element | <p>* List 2 elements (1) <p>* List 2 elements (2) | <p>* List 3 elements (1) <p>* List 3 elements (2) <p>* List 3 elements (3) |
 
 ## Implementations
 
