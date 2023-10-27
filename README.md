@@ -250,8 +250,8 @@ Fig. 4. Plot of the preprocessed signal for repetition `4` of the `SC_HLT` class
 ### C
 
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="doc/img/struct_1.png">
- <img alt="Display an illustration with a transparent background in light mode, and one with a white background in dark mode." src="doc/img/struct_2.png">
+ <source media="(prefers-color-scheme: dark)" srcset="doc/img/struct_2.png">
+ <img alt="Display an illustration with a transparent background in light mode, and one with a white background in dark mode." src="doc/img/struct_1.png">
 </picture>
 
 ## Benchmark
