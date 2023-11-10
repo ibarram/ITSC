@@ -254,6 +254,8 @@ Fig. 4. Plot of the preprocessed signal for repetition `4` of the `SC_HLT` class
  <img alt="Display an illustration with a transparent background in light mode, and one with a white background in dark mode." src="doc/img/struct_1.png">
 </picture>
 
+Fig. 5 Graphic representation of the `db` strcuture containing the dataset ITS.C
+
 ## Benchmark
 
 Feel free to submit your benchmark by creating a new issue, and we'll display your results here. Before proceeding, ensure your benchmark doesn't already exist on this list. For further information, refer to our contributor guidelines.
