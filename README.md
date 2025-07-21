@@ -279,12 +279,9 @@ The table below showcases the benchmarks submitted by contributors. Please note 
 
 Publications from the scientific community that use the ITSC dataset:
 
-1. J.-J. Cardenas-Cornejo, D.-L. Almanza-Ojeda, A. Gonzáalez-Parada, V. Hernandez-Ramirez, and M.-A. Ibarra-Manzano, “Complex signal analysis for inter-turn short-circuits faults on induction motors”, IEEE Sensors Journal, vol. 25, no. 8, pp. 13433–13440, Apr. 15, 2025, ISSN: 1558-1748. DOI: 10.1109/JSEN.2025.3545030.
+1. J.-J. Cardenas-Cornejo, D.-L. Almanza-Ojeda, A. Gonzáalez-Parada, V. Hernandez-Ramirez, and M.-A. Ibarra-Manzano, “Complex signal analysis for inter-turn short-circuits faults on induction motors”, IEEE Sensors Journal, vol. 25, no. 8, pp. 13433–13440, Apr. 15, 2025, ISSN: 1558-1748. [DOI: 10.1109/JSEN.2025.3545030](https://doi.org/10.1109/JSEN.2025.3545030)
 
-
-2. J.-J. Cardenas-Cornejo, M.-A. Ibarra-Manzano, A. González-Parada, R. Castro-Sanchez, and D.-L. Almanza-Ojeda, “Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis”, Measurement, vol. 222, p. 113680, Nov. 30, 2023, ISSN: 0263-2241. DOI: 10.1016/j.measurement.
-2023.113680.
-
+2. J.-J. Cardenas-Cornejo, M.-A. Ibarra-Manzano, A. González-Parada, R. Castro-Sanchez, and D.-L. Almanza-Ojeda, “Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis”, Measurement, vol. 222, p. 113680, Nov. 30, 2023, ISSN: 0263-2241. [DOI:10.1016/j.measurement.2023.113680](https://doi.org/10.1016/j.measurement.2023.113680)
 
 ## Contact
 
