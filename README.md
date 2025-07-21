@@ -295,6 +295,8 @@ Publications from the scientific community that use the ITSC dataset:
 
 [Dr. R. Castro-Sanchez](mailto:castro@ugto.mx?subject=[GitHub]%20ITSC%20dataset) - [ORCID: 0000-0002-4072-4105](https://orcid.org/0000-0002-4072-4105) - [SCOPUS: 6508110285](https://www.scopus.com/authid/detail.uri?authorId=6508110285)
 
+[M.I. V. Hernandez-Ramirez](mailto:v.hernandez.ramirez@ugto.mx?subject=[GitHub]%20ITSC%20dataset) - [ORCID: 0000-0002-9902-3637](https://orcid.org/0000-0002-9902-3637) - [SCOPUS: 57502411200](https://www.scopus.com/authid/detail.uri?authorId=57502411200)
+
 Project Link: [ITSC](https://github.com/ibarram/ITSC)
 
 ## Citing ITSC database
