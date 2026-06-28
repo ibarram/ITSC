@@ -83,8 +83,9 @@ You can use direct links to download the dataset. The data is stored in the **cs
 
 | Name  | Description | Samples | Size | Link | MD5 Checksum|
 | --- | --- |--- | --- |--- |--- |
-| `RAW_Signals.zip`  | Raw data in CSV format  | [325,000x3] |4.7 MBytes | [Download](/dataset/RAW_Signals.zip)|`54914b0d0612d8ca7b4f6ab5169f5c0e`|
-| `RAW_Signals_SF.zip`  | Raw data in CVS format arranged in folders | [325,000x3] |4.7 MBytes | [Download](/dataset/RAW_Signals_SF.zip)|`9102f70f8e4451c7d2da746a20dcf06a`|
+| `RAW_Signals.zip`  | Raw data in CSV format | [325,000x3] |4.7 MBytes | [Download](/dataset/RAW_Signals.zip)|`54914b0d0612d8ca7b4f6ab5169f5c0e`|
+| `RAW_Signals_SF.zip`  | Raw data in CSV format, organized into folders | [325,000x3] |4.7 MBytes | [Download](/dataset/RAW_Signals_SF.zip)|`9102f70f8e4451c7d2da746a20dcf06a`|
+| `RAW_Signals_SF_25C.zip`  | Raw data for 25 classes in CSV format, organized into folders | [625,000x3] |15.9 MBytes | [Download](/dataset/RAW_Signals_SF_25C.zip)|`91f818ecf9dce34df505906a9959909f`|
 | `Cropped_Signals_SF.zip`  | Cropped and preprocessed data in CSV fotmat  | [65,000x3] |1.7 MBytes | [Download](/dataset/Cropped_Signals_SF.zip)|`3c54a178e39de825c5296d9fd44dcd44`|
 | `RAWData_ITSC.mat`  | Raw data in mat format  | [325,000x3]| 7.2 MBytes | [Download](/dataset/RAWData_ITSC.mat)|`514da2bad2f8dc2073f2338a2867b091`|
 | `Data_ITSC.mat`  | Cropped and proprocessed data in mat format  | [65,000x3]| 1.5 MBytes | [Download](/dataset/Data_ITSC.mat)|`6040a140a61542e40288106e9245c895`|
