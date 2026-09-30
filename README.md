@@ -284,19 +284,23 @@ Publications from the scientific community that use the ITSC dataset:
 
 2. J.-J. Cardenas-Cornejo, M.-A. Ibarra-Manzano, A. González-Parada, R. Castro-Sanchez, and D.-L. Almanza-Ojeda, “Classification of inter-turn short-circuit faults in induction motors based on quaternion analysis”, Measurement, vol. 222, p. 113680, Nov. 30, 2023, ISSN: 0263-2241. [DOI:10.1016/j.measurement.2023.113680](https://doi.org/10.1016/j.measurement.2023.113680)
 
+3. A. Ortega-González, J.-J. Cardenas-Cornejo, V. Hernandez-Ramirez, U. Robles-Cervantes, D.-L. Almanza-Ojeda, J.-G. Avina-Cervantes, M.-A. Ibarra-Manzano, “A high-accuracy space phasor-based method for multi-fault classification in induction motors using differential evolution”, Applied Soft Computing, vol. X, p. 116512, Sep. 28, 2026, ISSN: 1568-4946, [DOI:10.1016/j.asoc.2026.116512](https://doi.org/10.1016/j.asoc.2026.116512)
+
 ## Contact
 
 [Dra. D.-L. Almanza-Ojeda](mailto:dora.almanza@ugto.mx?subject=[GitHub]%20ITSC%20dataset) - [ORCID: 0000-0002-3373-0929](https://orcid.org/0000-0002-3373-0929) - [SCOPUS: 13608761000](https://www.scopus.com/authid/detail.uri?authorId=13608761000) 
 
 [Dr. M.-A. Ibarra-Manzano](mailto:ibarram@ugto.mx?subject=[GitHub]%20ITSC%20dataset) - [ORCID: 0000-0003-4317-0248](https://orcid.org/0000-0003-4317-0248) - [SCOPUS: 15837259000](https://www.scopus.com/authid/detail.uri?authorId=15837259000)
 
-[M.I. J.-J. Cardenas-Cornejo](mailto:jj.cardenascornejo@ugto.mx?subject=[GitHub]%20ITSC%20dataset) - [ORCID: 0000-0001-6847-4059](https://orcid.org/0000-0001-6847-4059) - [SCOPUS: 57218545341](https://www.scopus.com/authid/detail.uri?authorId=57218545341)
+[Dr. J.-J. Cardenas-Cornejo](mailto:jj.cardenascornejo@ugto.mx?subject=[GitHub]%20ITSC%20dataset) - [ORCID: 0000-0001-6847-4059](https://orcid.org/0000-0001-6847-4059) - [SCOPUS: 57218545341](https://www.scopus.com/authid/detail.uri?authorId=57218545341)
 
 [Dr. A. Gonzalez-Parada](mailto:gonzaleza@ugto.mx?subject=[GitHub]%20ITSC%20dataset) - [ORCID: 0000-0003-3473-1349](https://orcid.org/0000-0003-3473-1349) - [SCOPUS: 36011661100](https://www.scopus.com/authid/detail.uri?authorId=36011661100)
 
 [Dr. R. Castro-Sanchez](mailto:castro@ugto.mx?subject=[GitHub]%20ITSC%20dataset) - [ORCID: 0000-0002-4072-4105](https://orcid.org/0000-0002-4072-4105) - [SCOPUS: 6508110285](https://www.scopus.com/authid/detail.uri?authorId=6508110285)
 
 [M.I. V. Hernandez-Ramirez](mailto:v.hernandez.ramirez@ugto.mx?subject=[GitHub]%20ITSC%20dataset) - [ORCID: 0000-0002-9902-3637](https://orcid.org/0000-0002-9902-3637) - [SCOPUS: 57502411200](https://www.scopus.com/authid/detail.uri?authorId=57502411200)
+
+[M.I. Alan Ortega-Gonzalez](mailto:a.ortegagonzalez@ugto.mx?subject=[GitHub]%20ITSC%20dataset) - [ORCID: 0009-0007-6360-226X](https://orcid.org/0009-0007-6360-226X) - [SCOPUS: X](https://www.scopus.com/authid/detail.uri?authorId=X)
 
 Project Link: [ITSC](https://github.com/ibarram/ITSC)
 
